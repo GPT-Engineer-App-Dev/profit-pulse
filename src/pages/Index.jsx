@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Box as="nav" bg="gray.800" color="white" py={4}>
+      <Box as="nav" bg="#fff1e5" color="black" py={4}>
         <Flex justify="space-between" align="center" maxW="container.xl" mx="auto" px={4}>
           <Heading as="h1" size="lg">Financial Times</Heading>
           <Flex>
@@ -18,7 +18,7 @@ const Index = () => {
       </Box>
 
       {/* Main Headline Section */}
-      <Box as="section" bg="gray.100" py={10}>
+      <Box as="section" bg="#fff1e5" py={10}>
         <Container maxW="container.lg">
           <Heading as="h2" size="2xl" mb={4}>Main Headline: Breaking News</Heading>
           <Text fontSize="lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</Text>
@@ -26,7 +26,7 @@ const Index = () => {
       </Box>
 
       {/* Articles Grid */}
-      <Box as="section" py={10}>
+      <Box as="section" bg="#fff1e5" py={10}>
         <Container maxW="container.lg">
           <Grid templateColumns="repeat(auto-fit, minmax(300px, 1fr))" gap={6}>
             <GridItem bg="gray.50" p={4} borderRadius="md" boxShadow="md">
@@ -50,7 +50,7 @@ const Index = () => {
       </Box>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" py={6}>
+      <Box as="footer" bg="#fff1e5" color="black" py={6}>
         <Container maxW="container.lg">
           <Flex justify="space-between" align="center">
             <Text>&copy; 2023 Financial Times</Text>
